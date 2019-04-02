@@ -1,5 +1,6 @@
 from pathlib import Path
 import shutil
+import time
 
 from docutils.core import publish_cmdline
 from invoke import task
@@ -27,8 +28,11 @@ def move_docs(ctx):
 
     These docs are visible http://robotframework.org/WebDemo/.
     """
-    log = Path('./log.html')
-    report = Path('./report.html')
+    timestamp = time.strftime("%Y%m%d-%H%M%S")
+    log_file = "log_webdemo_" + timestamp + ".html"
+    report_file = "report_webdemo" + timestamp + "html"
+    log = Path(log_file)
+    report = Path(report_file)
     dest = Path('.') / 'docs'
     print(log.absolute())
     shutil.copy(log.absolute(), str(dest))
