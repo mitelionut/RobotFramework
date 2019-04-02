@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot rpa="false" generated="20190402 14:07:21.408" generator="Robot 3.1.1 (Python 2.7.15 on darwin)">
+<robot rpa="false" generated="20190402 15:52:38.884" generator="Robot 3.1.1 (Python 2.7.15 on darwin)">
 <suite source="/Users/imitel/RobotFramework/login_tests" id="s1" name="Login Tests">
 <suite source="/Users/imitel/RobotFramework/login_tests/valid_login.robot" id="s1-s1" name="Valid Login">
 <test id="s1-s1-t1" name="Valid Login">
@@ -10,19 +10,19 @@
 <arg>${LOGIN URL}</arg>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg timestamp="20190402 14:07:21.566" level="INFO">Opening browser 'Chrome' to base url 'http://localhost:7272/'.</msg>
-<status status="PASS" endtime="20190402 14:07:24.441" starttime="20190402 14:07:21.566"></status>
+<msg timestamp="20190402 15:52:39.037" level="INFO">Opening browser 'Chrome' to base url 'http://localhost:7272/'.</msg>
+<status status="PASS" endtime="20190402 15:52:41.901" starttime="20190402 15:52:39.037"></status>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" endtime="20190402 14:07:24.582" starttime="20190402 14:07:24.442"></status>
+<status status="PASS" endtime="20190402 15:52:42.034" starttime="20190402 15:52:41.901"></status>
 </kw>
 <kw name="Set Selenium Speed" library="SeleniumLibrary">
 <doc>Sets the delay that is waited after each Selenium command.</doc>
 <arguments>
 <arg>${DELAY}</arg>
 </arguments>
-<status status="PASS" endtime="20190402 14:07:24.583" starttime="20190402 14:07:24.583"></status>
+<status status="PASS" endtime="20190402 15:52:42.035" starttime="20190402 15:52:42.034"></status>
 </kw>
 <kw name="Login Page Should Be Open" library="resource">
 <kw name="Title Should Be" library="SeleniumLibrary">
@@ -30,12 +30,12 @@
 <arguments>
 <arg>Login Page</arg>
 </arguments>
-<msg timestamp="20190402 14:07:24.589" level="INFO">Page title is 'Login Page'.</msg>
-<status status="PASS" endtime="20190402 14:07:24.589" starttime="20190402 14:07:24.584"></status>
+<msg timestamp="20190402 15:52:42.041" level="INFO">Page title is 'Login Page'.</msg>
+<status status="PASS" endtime="20190402 15:52:42.041" starttime="20190402 15:52:42.036"></status>
 </kw>
-<status status="PASS" endtime="20190402 14:07:24.589" starttime="20190402 14:07:24.583"></status>
+<status status="PASS" endtime="20190402 15:52:42.041" starttime="20190402 15:52:42.035"></status>
 </kw>
-<status status="PASS" endtime="20190402 14:07:24.589" starttime="20190402 14:07:21.566"></status>
+<status status="PASS" endtime="20190402 15:52:42.042" starttime="20190402 15:52:39.037"></status>
 </kw>
 <kw name="Input Username" library="resource">
 <arguments>
@@ -47,10 +47,10 @@
 <arg>username_field</arg>
 <arg>${username}</arg>
 </arguments>
-<msg timestamp="20190402 14:07:24.592" level="INFO">Typing text 'demo' into text field 'username_field'.</msg>
-<status status="PASS" endtime="20190402 14:07:24.688" starttime="20190402 14:07:24.592"></status>
+<msg timestamp="20190402 15:52:42.043" level="INFO">Typing text 'demo' into text field 'username_field'.</msg>
+<status status="PASS" endtime="20190402 15:52:42.413" starttime="20190402 15:52:42.042"></status>
 </kw>
-<status status="PASS" endtime="20190402 14:07:24.689" starttime="20190402 14:07:24.590"></status>
+<status status="PASS" endtime="20190402 15:52:42.413" starttime="20190402 15:52:42.042"></status>
 </kw>
 <kw name="Input Password" library="resource">
 <arguments>
@@ -62,10 +62,10 @@
 <arg>password_field</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20190402 14:07:24.689" level="INFO">Typing text 'mode' into text field 'password_field'.</msg>
-<status status="PASS" endtime="20190402 14:07:24.749" starttime="20190402 14:07:24.689"></status>
+<msg timestamp="20190402 15:52:42.415" level="INFO">Typing text 'mode' into text field 'password_field'.</msg>
+<status status="PASS" endtime="20190402 15:52:42.599" starttime="20190402 15:52:42.414"></status>
 </kw>
-<status status="PASS" endtime="20190402 14:07:24.749" starttime="20190402 14:07:24.689"></status>
+<status status="PASS" endtime="20190402 15:52:42.599" starttime="20190402 15:52:42.413"></status>
 </kw>
 <kw name="Submit Credentials" library="resource">
 <kw name="Click Button" library="SeleniumLibrary">
@@ -73,10 +73,10 @@
 <arguments>
 <arg>login_button</arg>
 </arguments>
-<msg timestamp="20190402 14:07:24.750" level="INFO">Clicking button 'login_button'.</msg>
-<status status="PASS" endtime="20190402 14:07:24.818" starttime="20190402 14:07:24.750"></status>
+<msg timestamp="20190402 15:52:42.600" level="INFO">Clicking button 'login_button'.</msg>
+<status status="PASS" endtime="20190402 15:52:42.679" starttime="20190402 15:52:42.600"></status>
 </kw>
-<status status="PASS" endtime="20190402 14:07:24.819" starttime="20190402 14:07:24.749"></status>
+<status status="PASS" endtime="20190402 15:52:42.679" starttime="20190402 15:52:42.599"></status>
 </kw>
 <kw name="Welcome Page Should Be Open" library="resource">
 <kw name="Location Should Be" library="SeleniumLibrary">
@@ -84,32 +84,36 @@
 <arguments>
 <arg>${WELCOME URL}</arg>
 </arguments>
-<msg timestamp="20190402 14:07:24.823" level="INFO">Current location is 'http://localhost:7272/welcome.html'.</msg>
-<status status="PASS" endtime="20190402 14:07:24.823" starttime="20190402 14:07:24.819"></status>
+<msg timestamp="20190402 15:52:42.686" level="INFO">Current location is 'http://localhost:7272/welcome.html'.</msg>
+<status status="PASS" endtime="20190402 15:52:42.686" starttime="20190402 15:52:42.679"></status>
 </kw>
 <kw name="Title Should Be" library="SeleniumLibrary">
 <doc>Verifies that current page title equals ``title``.</doc>
 <arguments>
 <arg>Welcome Page</arg>
 </arguments>
-<msg timestamp="20190402 14:07:24.828" level="INFO">Page title is 'Welcome Page'.</msg>
-<status status="PASS" endtime="20190402 14:07:24.828" starttime="20190402 14:07:24.823"></status>
+<msg timestamp="20190402 15:52:42.691" level="INFO">Page title is 'Welcome Page'.</msg>
+<status status="PASS" endtime="20190402 15:52:42.691" starttime="20190402 15:52:42.686"></status>
 </kw>
-<status status="PASS" endtime="20190402 14:07:24.828" starttime="20190402 14:07:24.819"></status>
+<status status="PASS" endtime="20190402 15:52:42.692" starttime="20190402 15:52:42.679"></status>
 </kw>
 <kw type="teardown" name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" endtime="20190402 14:07:24.930" starttime="20190402 14:07:24.828"></status>
+<status status="PASS" endtime="20190402 15:52:42.782" starttime="20190402 15:52:42.692"></status>
 </kw>
-<status status="PASS" endtime="20190402 14:07:24.931" critical="yes" starttime="20190402 14:07:21.565"></status>
+<status status="PASS" endtime="20190402 15:52:42.782" critical="yes" starttime="20190402 15:52:39.036"></status>
 </test>
 <doc>A test suite with a single test for valid login.
 
 This test has a workflow that is created using keywords in
 the imported resource file.</doc>
-<status status="PASS" endtime="20190402 14:07:24.932" starttime="20190402 14:07:21.436"></status>
+<status status="PASS" endtime="20190402 15:52:42.783" starttime="20190402 15:52:38.912"></status>
 </suite>
-<status status="PASS" endtime="20190402 14:07:24.937" starttime="20190402 14:07:21.415"></status>
+<metadata>
+<item name="Application_Name">WebDemoOfTheMillenium</item>
+<item name="Version">1.0</item>
+</metadata>
+<status status="PASS" endtime="20190402 15:52:42.786" starttime="20190402 15:52:38.891"></status>
 </suite>
 <statistics>
 <total>
