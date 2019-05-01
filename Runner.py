@@ -8,6 +8,6 @@ output_file = "output_webdemo" + timestamp + ".xml"
 html_tag1 = "Application_Name:WebDemoOfTheMillenium"
 html_tag2 = "Version:1.0"
 
-comanda = "robot -r " + report_file + " -l " + log_file + " -M " + html_tag1 + " -M " + html_tag2 +" login_tests"
+comanda = "robot -r {0} -l {1} -M {2} -M {3} -d {4} login_tests".format(report_file, log_file, html_tag1, html_tag2, timestamp)
 
 os.system(comanda)
